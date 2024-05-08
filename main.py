@@ -3,8 +3,8 @@ import requests
 from bs4 import BeautifulSoup
 
 proxies = {
-    "http":  "http://scraperapi:c7175bbc61fe138f6fa85049901a8283@proxy-server.scraperapi.com:8001",
-    "https": "http://scraperapi:c7175bbc61fe138f6fa85049901a8283@proxy-server.scraperapi.com:8001"
+    "http":  #put your proxies here
+    "https": #put your proxies here
 }
 def csv_function_writer(RestName, RestRating):
     with open('restaurants.csv', 'a', newline='') as file:
